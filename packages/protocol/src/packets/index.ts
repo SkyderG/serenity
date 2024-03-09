@@ -58,3 +58,5 @@ export * from './AvailableCommands.js';
 export * from './SetCommandsEnabled.js';
 export * from './CommandRequest.js';
 export * from './CommandOutput.js';
+export * from './Emote.js';
+export * from './EmoteList.js';

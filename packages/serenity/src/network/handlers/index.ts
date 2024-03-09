@@ -3,6 +3,8 @@ import { BlockPickRequestHandler } from './BlockPickRequest.js';
 import { CommandRequest } from './CommandRequest.js';
 import { ContainerCloseHandler } from './ContainerClose.js';
 import { DisconnectHandler } from './Disconnect.js';
+import { EmoteHandler } from './Emote.js';
+import { EmoteListHandler } from './EmoteList.js';
 import { InteractHandler } from './Interact.js';
 import { InventoryTransactionHandler } from './InventoryTransaction.js';
 import { ItemStackRequestHandler } from './ItemStackRequest.js';
@@ -41,7 +43,9 @@ const NETWORK_HANDLERS = [
 	MobEquipmentHandler,
 	PlayerAuthInputHandler,
 	AnimateHandler,
-  CommandRequest
+  CommandRequest,
+  EmoteHandler,
+  EmoteListHandler
 ];
 
 export { NETWORK_HANDLERS };

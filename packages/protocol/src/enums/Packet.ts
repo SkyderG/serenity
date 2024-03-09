@@ -34,7 +34,7 @@ enum Packet {
 	InventoryContent = 0x31, // 49
 	InventorySlot = 0x32, // 50
 	LevelChunk = 0x3a, // 58
-  SetCommandsEnabled = 0x3b, // 59
+	SetCommandsEnabled = 0x3b, // 59
 	// SetDifficulty = 0x3c, // 60
 	ChangeDimension = 0x3d, // 61
 	SetPlayerGameType = 0x3e, // 62
@@ -43,7 +43,7 @@ enum Packet {
 	ChunkRadiusUpdate = 0x46, // 70
 	AvailableCommands = 0x4c,
 	CommandRequest = 0x4d, // 77
-  CommandOutput = 0x4f, // 79
+	CommandOutput = 0x4f, // 79
 	SetTitle = 0x58, // 88
 	ModalFormRequest = 0x64, // 100
 	ModalFormResponse = 0x65, // 101
@@ -51,12 +51,14 @@ enum Packet {
 	NetworkChunkPublisherUpdate = 0x79, // 121
 	BiomeDefinitionList = 0x7a, // 122
 	// ClientCacheStatus = 0x81, // 129
+	Emote = 0x8a, // 138
 	NetworkSettings = 0x8f, // 143
 	PlayerAuthInput = 0x90, // 144
 	// PlayerAuthInput = 0x90, // 144
 	CreativeContent = 0x91, // 145
 	ItemStackRequest = 0x93, // 147
 	ItemStackResponse = 0x94, // 148
+  EmoteList = 0x98, // 152
 	PacketViolationWarning = 0x9c, // 156
 	// ItemComponent = 0xa2, // 162
 	ScriptMessage = 0xb1, // 177

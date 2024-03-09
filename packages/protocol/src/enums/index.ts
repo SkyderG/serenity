@@ -42,3 +42,4 @@ export * from './ItemStackStatus.js';
 export * from './AbilitySet.js';
 export * from './AnimateId.js';
 export * from './LevelEventId.js';
+export * from './EmoteType.js';

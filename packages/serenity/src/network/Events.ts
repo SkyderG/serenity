@@ -14,6 +14,8 @@ import type {
 	CreativeContent,
 	DataPacket,
 	Disconnect,
+	Emote,
+	EmoteList,
 	Interact,
 	InventoryContent,
 	InventorySlot,
@@ -122,6 +124,8 @@ interface NetworkEvents {
 	[Packet.UpdateAbilities]: [NetworkPacketEvent<UpdateAbilities>];
 	[Packet.UpdateAdventureSettings]: [NetworkPacketEvent<UpdateAdventureSettings>];
 	[Packet.RequestNetworkSettings]: [NetworkPacketEvent<RequestNetworkSettings>];
+  [Packet.Emote]: [NetworkPacketEvent<Emote>];
+  [Packet.EmoteList]: [NetworkPacketEvent<EmoteList>];
 }
 
 export type { NetworkPacketEvent, NetworkEvents };

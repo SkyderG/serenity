@@ -15,6 +15,8 @@ import { CommandRequest } from './CommandRequest.js';
 import { ContainerClose } from './ContainerClose.js';
 import { ContainerOpen } from './ContainerOpen.js';
 import { CreativeContent } from './CreativeContent.js';
+import { Emote } from './Emote.js';
+import { EmoteList } from './EmoteList.js';
 import { Interact } from './Interact.js';
 import { InventoryContent } from './InventoryContent.js';
 import { InventorySlot } from './InventorySlot.js';
@@ -103,11 +105,13 @@ const Packets = {
 	[Packet.SetLocalPlayerAsInitialized]: SetLocalPlayerAsInitialized, // 113
 	[Packet.NetworkChunkPublisherUpdate]: NetworkChunkPublisherUpdate, // 121
 	[Packet.BiomeDefinitionList]: BiomeDefinitionList, // 122
+	[Packet.Emote]: Emote, // 138
 	[Packet.NetworkSettings]: NetworkSettings, // 143
 	[Packet.PlayerAuthInput]: PlayerAuthInput, // 144
 	[Packet.CreativeContent]: CreativeContent, // 145
 	[Packet.ItemStackRequest]: ItemStackRequest, // 147
 	[Packet.ItemStackResponse]: ItemStackResponse, // 148
+	[Packet.EmoteList]: EmoteList, // 152
 	[Packet.PacketViolationWarning]: PacketViolationWarning, // 156
 	[Packet.ScriptMessage]: ScriptMessage, // 177
 	[Packet.ToastRequest]: ToastRequest, // 186
